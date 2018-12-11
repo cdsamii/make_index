@@ -103,7 +103,7 @@ z.fac <- matStand(X.raw)%*%solve(sigma)%*%lambda
 # ICW: should see ca. 25% for x1 and x3, 50% for x2:
 icwX.2$weights
 
-# Factor analysis: factor 1 loads x1 and x2 equally, no weight to x2; 
+# Factor analysis: factor 1 loads x1 and x3 equally, no weight to x2; 
 # vice versa for second factor: 
 t(lambda)
 
